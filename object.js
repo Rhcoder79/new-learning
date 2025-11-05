@@ -41,25 +41,10 @@ for(const pa in profile){
    const paman=profile[pa];
     console.log(pa,paman); //pasapashi output dibe
 }
-
-//task 1
-const book={
-    name:'economy',
-    writer:'rh',
-    price:120,
-    located:'badda'
+// step 7 
+/*for in আসার আগে একটা অবজেক্টের সব প্রোপার্টির ওপরে লুপ চালানোর একটা কমন সিস্টেম ছিল Object.keys দিয়ে সব key-গুলাকে নিয়ে আসা।
+   এরপর একটা অ্যারের ওপরে যেভাবে ফর লুপ বা for of চালানো যায়, সেটা চালিয়ে দেওয়া।
+*/
+for(const prop of proper){
+    console.log(prop,profile[prop],'this way use before came to  for in');
 }
-if('name' in book ){
-    console.log('yes i am');
-}else{
-    console.log('no i am')
-}
-//console.log(Object.keys(book),Object.values(book));
-const pro=Object.keys(book);
-const value=Object.values(book);
-console.log(pro,value);
-
-// console.log(Object.values(book).includes('Rh'));
-//const pro=Object.keys(book);
-//const know=pro.includes('writer');
-//console.log(know);
