@@ -14,5 +14,5 @@ const color=['black','white','red','blue','pink','green','yellow'];
 console.log(color.length);
 const capital=['dhaka','delhi','london','paris','dubai','islamabad','berlin'];
 console.log(capital.length);
-console.log('my name is robiul hasan');
-console.log('fjss');
+console.log('rh');
+console.log('hey hr');  b vvvbbx
