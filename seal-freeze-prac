@@ -1,0 +1,55 @@
+//task 1
+const headphone={
+    brand:'Sony',
+    price:2000,
+    color:"red"
+}
+Object.freeze(headphone);
+headphone.size='M'; // not will be added the property
+console.log(headphone);
+//task 2
+const player={
+    name:'Messi',
+    goals:800,
+    club:'Inter Miami',
+}
+Object.freeze(player);
+player.age=39;
+console.log(player);
+//task 3
+const book={
+    title:'Harry Potter',
+    author:'JK Rowling',
+    pages:500
+}
+Object.seal(book);
+book.author='robiul hasan';// able to change the value of the property
+delete book.pages; //not able to delete or add any property
+console.log(book);
+//task 4
+const gadget={
+    name:'iPhone',
+    price:120000,
+    color:'black'
+}
+delete gadget.price;
+console.log(gadget);
+//task 5
+const animal={
+    name:'Tiger',
+    location:'Sundarban',
+
+}
+Object.freeze(animal);
+animal.location='cumilla';
+console.log(animal);
+//task 6
+const food={
+    name:'Pizza',
+    price:500,
+    size:'Large'
+}
+Object.seal(food);
+food.price=600;
+food.brand='KFC';
+console.log(food);
